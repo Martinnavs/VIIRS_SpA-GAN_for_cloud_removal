@@ -1,0 +1,26 @@
+batchsize: 1
+beta1: 0.5
+cuda: true
+datasets_dir: /kaggle/input/viirscloudsdenoised/VIIRSCLOUDS-Denoised/
+dis_init: null
+epoch: 100
+gen_init: null
+gpu_ids:
+- 0
+height: 512
+in_ch: 3
+lamb: 100
+lr: 0.0004
+manualSeed: 0
+minimax: 1
+n_data: 500
+out_ch: 3
+out_dir: /kaggle/working/
+snapshot_interval: 10
+test_list: test_list.txt
+threads: 4
+train_list: train_list.txt
+train_size: 0.8
+validation_batchsize: 1
+validation_size: 0.2
+width: 512

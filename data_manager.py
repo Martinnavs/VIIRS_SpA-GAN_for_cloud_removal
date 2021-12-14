@@ -55,6 +55,7 @@ class TestDataset(data.Dataset):
     def __getitem__(self, index):
         filename = os.path.basename(self.test_files[index])
         
+        print(filename)
         x = cv2.imread(os.path.join(self.test_dir, 'cloudy_image', filename), 1).astype(np.float32)
 
         x = x / 255

@@ -37,7 +37,7 @@ def save_image(out_dir, x, num, epoch, filename=None):
 
     if not os.path.exists(test_dir):
         os.makedirs(test_dir)
-    cv2.imwrite(test_path, x)
+    cv2.imwrite(test_path, x.astype('uint8')*255)
 
 
 def checkpoint(config, epoch, gen, dis):

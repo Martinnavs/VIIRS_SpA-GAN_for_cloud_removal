@@ -9,7 +9,7 @@ from torch.autograd import Variable
 from torch.utils.data import DataLoader
 
 from data_manager import TestDataset
-from utils import gpu_manage, save_image, heatmap
+from utils_tiff import gpu_manage, save_image, heatmap
 from models.gen.SPANet import Generator
 
 
@@ -35,6 +35,7 @@ def predict(config, args):
             filename = batch[1][0]
             if args.cuda:
                 x = x.cuda()
+            print(x)
             
             att, out = gen(x)
 
@@ -51,8 +52,8 @@ def predict(config, args):
             att_ = att.cpu().numpy()[0] * 255
             heat_att = heatmap(att_.astype('uint8'))
             
-            allim[0, 0, :] = in_rgb * 255
-            allim[0, 1, :] = out_rgb * 255
+            allim[0, 0, :] = in_rgb * -255
+            allim[0, 1, :] = out_rgb * -255
             allim[0, 2, :] = heat_att
             allim = allim.transpose(0, 3, 1, 4, 2)
             allim = allim.reshape((h*p, w*p, c))
