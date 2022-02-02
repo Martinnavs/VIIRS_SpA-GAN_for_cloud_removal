@@ -17,9 +17,9 @@
 
 ## 1. INTRODUCTION
 
-This is a fork of the Hang Pan's repository for [***Cloud Removal for Remote Sensing Imagery via Spatial Attention Generative Adversarial Network***](https://github.com/Penn000/SpA-GAN_for_cloud_removal). ## 2. DATASET
+This is a fork of the Hang Pan's repository for [***Cloud Removal for Remote Sensing Imagery via Spatial Attention Generative Adversarial Network***](https://github.com/Penn000/SpA-GAN_for_cloud_removal).
 
-### 2.1. RICE_DATASET
+## 2. DATASET
 
 Click [here](https://www.kaggle.com/anthonymartinnavarez/viirscloudsdenoised) to access the datasets for VIIRSCLOUDS-Denoised or [here](https://www.kaggle.com/anthonymartinnavarez/viirscloudsvanilla) for VIIRSCLOUDS-Vanilla.
 
