@@ -80,3 +80,11 @@ Contact me if you have any questions about the code and its execution.
 E-mail: martinpnavarez@gmail.com
 
 If you think this work is helpful for your research, give me a star :-D
+
+## Members/Contributors
+- Dagondon, Christian
+- Pesirla, Aldrich
+- Manzanares, Gabriel John
+- Navarez, Anthony Martin
+- Razonable, Rosalie 
+- Rubi, Crispaul John
