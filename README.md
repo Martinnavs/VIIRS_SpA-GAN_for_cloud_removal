@@ -17,7 +17,7 @@
 
 ## 1. INTRODUCTION
 
-This is a fork of the Hang Pan's repository for [***Cloud Removal for Remote Sensing Imagery via Spatial Attention Generative Adversarial Network***](https://github.com/Penn000/SpA-GAN_for_cloud_removal).
+This is a fork of the Hang Pan's repository for [***Cloud Removal for Remote Sensing Imagery via Spatial Attention Generative Adversarial Network***](https://github.com/Penn000/SpA-GAN_for_cloud_removal), in the context of VIIRS Nighttime Imagery cloud removal.
 
 ## 2. DATASET
 
