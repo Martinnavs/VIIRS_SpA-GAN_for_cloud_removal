@@ -12,7 +12,7 @@
 
 ### new
 
-- 2022.2.2 Read our blog post at  
+- 2022.2.2 Read our blog post [here](https://medium.com/@martinpnavarez/removing-clouds-in-viirs-nighttime-images-using-spa-gan-16c737815e1d) 
 
 
 ## 1. INTRODUCTION
