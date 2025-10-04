@@ -75,9 +75,7 @@ If you want to change the model used, you may edit the script. Alternatively, we
 
 ## 6. CONTACT
 
-Contact me if you have any questions about the code and its execution.
-
-E-mail: martinpnavarez@gmail.com
+Contact me via LinkedIn if you have any questions about the code and its execution.
 
 If you think this work is helpful for your research, give me a star :-D
 
